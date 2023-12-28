@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700&display=swap');
+
+* {
+    font-family: 'Manrope', sans-serif; 
+}
+
+header {
+    font-weight: 400;
+}
+
+main {
+    width: 100vw;
+    height: auto;
+    font-family: 'Manrope', sans-serif; 
+    font-weight: 700;
+}
+
+footer {
+    font-family: 'Manrope', sans-serif; 
+    font-weight: 500;
+}
+
+.container-home {
+    background-image: url(Fundo\ Granulado-01.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title-nav {
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.title-home {
+    font-size: 4vw;
+}
+@media (max-width: 992px) {
+    .title-home {
+      font-size: 8vw;
+    }
+}
+
+
+.image-transition{
+    width: 100vw;
+    height: auto;
+}
+
+.container-sobre {
+    background-color: #52B8EC;
+    width: 100vw;
+    height: auto;
+}
+
+.title-sobre {
+    font-size: 4vw;
+}
+@media (max-width: 992px) {
+    .title-sobre {
+      font-size: 6vw;
+    }
+}
+
+.text-sobre {
+    font-size: 2.5vw;
+}
+@media (min-width: 992px) {
+    .text-sobre {
+      font-size: 1.5vw;
+    }
+}
+
+.container-formacao {
+    background-image: url(Fundo\ Granulado-01.png);
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+}
+
+.bg-color-azul-matheus {
+    background-color: #52B8EC;
+}
+.bg-color-azul-secundary {
+    background-color: #2BAFE2;
+}
+
+
+.card-formacoes{
+    background-color: #52B8EC;
+    border-radius: 3vw;
+}
+
+.title-formacoes {
+    font-size: 4vw;
+}
+@media (max-width: 992px) {
+    .title-formacoes{
+      font-size: 6vw;
+    }
+}
+
+.container-projeto {
+    width: 100vw;
+    height: auto;
+}
+
+.title-projetos {
+    font-size: 4vw;
+}
+@media (max-width: 992px) {
+    .title-projetos {
+      font-size: 6vw;
+    }
+}
+
+.card-projetos {
+    background-color: #2BAFE2;
+    border-radius: 1vw;
+}
+
+.card-subtitle {
+    font-weight: 300;
+}
+
+.container-rodape {
+    width: 100vw;
+    height: 40vh;
+    background-color: #1f618d;
+}
+
+.text-contato {
+
+}
