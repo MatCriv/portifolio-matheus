@@ -1,64 +1,118 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Navbar Bootstrap</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    </head>
-    <body class="m-0 p-0">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-        <div class="div-home container-fluid p-0 d-flex align-items-center justify">
-            <nav class="navbar navbar-expand-lg bg-transparent nav-home fixed-top">
-                <div class="container-fluid mx-4 align-self-end">
-                    <a class="navbar-brand fs-1 text-white nav-font-logo" href="#">Matheus</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse flex-row-reverse fs-2 mt-3" id="navbarNavDropdown">
-                        <ul class="navbar-nav nav-font-options">
-                            <li class="nav-item nav-font-options">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Sobre</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Produtos</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Mais
-                                </a>
-                                <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Matheus</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-sm fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white fs-2 ms-3 mt-1 title-nav" href="#">Portifólio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-row-reverse me-3 mt-1" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                  <a class="nav-link text-white" href="#sobre">Sobre</a>
+                  <a class="nav-link text-white" href="#formacoes">Formações</a>
+                  <a class="nav-link text-white" href="#projetos">Projetos</a>
+                  <a class="nav-link text-white" href="#contato">Contato</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+
+        <div class="container-home d-flex align-items-end">
+            <div class="position-absolute top-50 start-50 translate-middle text-center">
+                <p class="text-white title-home">Matheus Crivellaro</p>
+            </div>
+            <img src="Transicao-home_Prancheta 1 copy.png" alt="" class="image-transition">
+
+        </div>
+
+        <div class="container-sobre pb-5 pt-5" id="sobre">
+            <div class="row">
+                <div class="col-9 col-lg-5 mx-auto">
+                    <p class="text-white d-flex justify-content-center title-sobre">Sobre Nós</p>
+                    <p class="text-sobre text-white text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, molestiae! Dolore, ipsum illo libero odit cumque dolorem ducimus repudiandae aperiam aspernatur mollitia inventore aliquam, labore soluta nam assumenda autem. Ad dolores iure accusantium, delectus sit iusto, mollitia illum sequi quam numquam suscipit consectetur necessitatibus facilis quaerat nesciunt illo quasi doloribus.</p>    
+                </div>
+            </div>
+        </div>
+
+        <div class="container-formacao" id="formacoes">
+          <img src="Transicao-home_Prancheta 1.png" alt="" class="image-transition">
+          <p class="text-white d-flex justify-content-center title-formacoes">Formações</p>
+          <div class="row justify-content-center">
+
+            <div class="card card-formacoes border-0 col-9 col-lg-7 m-5 text-white shadow">
+              <div class="card-header bg-color-azul-matheus border-white">
+                Featured
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary bg-color-azul-secundary border-0">Go somewhere</a>
+              </div>
+            </div>
+
+            <img src="Transicao-home_Prancheta 1 copy.png" alt="" class="image-transition">
+          </div>
+        </div>
+
+        <div class="container-projeto bg-color-azul-matheus" id="projetos">
+            <div class="d-flex justify-content-center pt-3">
+                <p class="title-projetos text-white">Projetos</p>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="card shadow me-4 card-projetos border-0 text-white col-lg-4 col-md-6 col-sm-12 mb-4" style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">Projeto</h5>
+                          <h6 class="card-subtitle mb-2">SubTitulo</h6>
+                          <p class="card-text fw-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium expedita asperiores minus? Sit aut eos culpa sed natus enim odio optio consequuntur hic minima pariatur iure expedita exercitationem, est quod.</p>
+                          <a href="#" class="btn btn-primary bg-color-azul-matheus border-0">Go somewhere</a>
+                        </div>
                     </div>
-                </div>
-            </nav>
-            <h1 class="text-white titulo-home text-center">Matheus</h1>
-            <img class="img-transiction-home" src="Transicao-home_Prancheta 1 copy.png" alt="">
-        </div>
-        <div class="container-fluid div-sobre d-flex flex-column align-items-center pb-5">
-            <h1 class="m-5 text-white titulo-sobre">Sobre Nós</h1>
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-9 mx-auto">
-                    <p class="texto-sobre text-white mx-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem consequatur labore itaque nam, commodi possimus dolore illo blanditiis! Ea perferendis nobis numquam quibusdam. Sequi dicta ipsam distinctio, a ratione laborum quidem architecto dolorum, molestias deserunt veritatis exercitationem commodi quis. Sapiente facere numquam, sit ratione atque ipsam laborum ullam dolores? Voluptates!</p>
-                </div>
+                    <div class="card shadow me-4 card-projetos border-0 text-white col-lg-4 col-md-6 col-sm-12 mb-4" style="width: 18rem;">
+                      <div class="card-body">
+                        <h5 class="card-title fw-bold">Projeto</h5>
+                        <h6 class="card-subtitle mb-2">SubTitulo</h6>
+                        <p class="card-text fw-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium expedita asperiores minus? Sit aut eos culpa sed natus enim odio optio consequuntur hic minima pariatur iure expedita exercitationem, est quod.</p>
+                        <a href="#" class="btn btn-primary bg-color-azul-matheus border-0">Go somewhere</a>
+                      </div>
+                    </div>
+                  
             </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-9 mx-auto">
-                    <p class="texto-sobre text-white mx-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem consequatur labore itaque nam, commodi possimus dolore illo blanditiis! Ea perferendis nobis numquam quibusdam. Sequi dicta ipsam distinctio, a ratione laborum quidem architecto dolorum, molestias deserunt veritatis exercitationem commodi quis. Sapiente facere numquam, sit ratione atque ipsam laborum ullam dolores? Voluptates!</p>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="div-produtos">
-            <img class="img-transiction-sobre" src="Transicao-home_Prancheta 1.png" alt="">
-            <p>1</p>
+        
+    </main>
+
+    <footer>
+
+      <div class="row container-rodape text-white fw-bolw">
+        <img src="Transicao-home_Prancheta 1.png" alt="" class="image-transition">
+
+        <div class="col-12 col-md-6 p-5" id="contato">
+          <p class="text-contato">Email: matheuscriv@gmail.com</p>
+          <p class="text-contato">Telefone: 11 947777090</p>
         </div>
-    </body>
-    </html>    
+        <div class="col-12 col-md-6 p-5" id="contato">
+          <a href="https://www.linkedin.com/in/matheus-crivellaro/" class="text-white"><p>Linkedin: Matheus Crivellaro</p></a>
+          <p class="text-contato">Telefone:+55 11 94777-7090</p>
+        </div>
+      </div>
+        
+    </footer>
+</body>
 </html>
